@@ -1,4 +1,5 @@
 import BiografiTemplate from "../BiografiTemplate";
+import elezImg from "../assets/biografi1.jpg"; // Correct import from src/assets
 
 const ElezIsmaili = () => {
   return (
@@ -19,7 +20,7 @@ Ka përkthyer nga boshnjakishtja “Hadithe të zgjedhura të Pejgamberit a.s.�
 Më 2018, botoi studimin –temën e magjistraturës “Gurbeti në krijimtarinë gojore të shqiptarëve të Maqedonisë”, ndihmuar nga Ministria e Kulturës, botuar nga Focus-Print Shkup. Në v. 2022 doli nga shtypi monografia kushtuar Medresesë dhe medresantëve me titull Yjet e Medresesë “ISA BEU”, në 37-vjetorin e hapjes së kësaj Medreseje. PREJ NAIMIT GJER TE NAIMI është vepra me shkrime origjinale dhe kontribute tjera që botohet me rastin e 72-vjetorit të lindjes së autorit. Është një përmbledhje kumtesash të lexuara në konferenca shkencore që nga viti 1990 gjer në vitin 2022. Ka edhe një sërë shkrimesh që botohen për herë të parë. Botues: Forumi Rinor Islam. Shtypi: Furkan Print -Shkup (2022).
 
 Gati për shtyp ka librin e fundit e radhës ku ka përfshirë shkrimet e botuara nëpër gazeta e revista të ndryshme gjatë 33 vjetëve të fundit, me titull “33 VJET DITË E NET”, në 14 tabakë shkrimi me të cilën vepër ka aplikuar në konkursin e Ministrisë së Kulturës për vitin 2025.`}
-      image="/images/biografi1.jpg"
+      image={elezImg}
     />
   );
 };
