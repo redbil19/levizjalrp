@@ -1,5 +1,5 @@
 import BiografiTemplate from "../BiografiTemplate";
-import elezImg from "../assets/biografi1.jpg"; // Correct import from src/assets
+import elezImg from "@/assets/biografi1.jpg"; // Make sure this path is correct
 
 const ElezIsmaili = () => {
   return (
