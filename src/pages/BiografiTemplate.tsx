@@ -4,7 +4,7 @@ interface BiografiTemplateProps {
   name: string;
   title?: string;
   content: string;
-  image: string; // image path imported from assets
+  image: string; // imported image path
 }
 
 const BiografiTemplate = ({ name, title, content, image }: BiografiTemplateProps) => {
@@ -34,17 +34,21 @@ const BiografiTemplate = ({ name, title, content, image }: BiografiTemplateProps
             {/* Profile Section */}
             <div className="bg-card rounded-lg p-8 shadow-lg border border-border mb-12">
               <div className="flex flex-col items-center text-center mb-8">
-                <div className="w-32 h-32 rounded-full overflow-hidden mb-4">
+                {/* Profile Image */}
+                <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-6">
                   <img
                     src={image}
                     alt={name}
                     className="w-full h-full object-cover"
                   />
                 </div>
+
+                {/* Name and Title */}
                 <h2 className="text-3xl font-bold text-foreground">{name}</h2>
                 {title && <p className="text-lg text-muted-foreground mt-2">{title}</p>}
               </div>
 
+              {/* Biography Text */}
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed whitespace-pre-line">
                   {content}
@@ -60,7 +64,17 @@ const BiografiTemplate = ({ name, title, content, image }: BiografiTemplateProps
       <footer className="bg-secondary text-secondary-foreground py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="mb-2">© 2025 Lëvizja "Lidhja e Re e Prizrenit"</p>
-          <p className="text-sm text-muted-foreground">PËR ZOT E ATDHE</p>
+          <p className="text-sm text-muted-foreground">
+            Powered by{" "}
+            <a
+              href="https://albscaling.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              Albscaling
+            </a>
+          </p>
         </div>
       </footer>
     </div>

@@ -163,8 +163,18 @@ const Kontakti = () => {
       {/* Footer */}
       <footer className="bg-secondary text-secondary-foreground py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-2">© 2025 Lëvizja "Lidhja e Re e Prizrenit"</p>
-          <p className="text-sm text-muted-foreground">PËR ZOT E ATDHE</p>
+          <p className="mb-2">© 2025 "Lidhja e Re e Prizrenit"</p>
+          <p className="text-sm text-muted-foreground">
+            Powered by{" "}
+            <a
+              href="https://albscaling.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              Albscaling
+            </a>
+          </p>
         </div>
       </footer>
     </div>
