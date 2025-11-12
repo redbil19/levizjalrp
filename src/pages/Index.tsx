@@ -12,7 +12,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative h-[400px] overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${prizrenBridge})` }}
         >
@@ -144,7 +144,7 @@ const Index = () => {
                 <p>Rr. Ali Hadri, Hyrja: A2, Nr.30</p>
                 <p>Prizren, Kosovë 20000</p>
               </div>
-              
+
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-foreground text-primary rounded-full mb-4">
                   <Phone className="w-8 h-8" />
@@ -154,7 +154,7 @@ const Index = () => {
                   +383 44 637 111
                 </a>
               </div>
-              
+
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-foreground text-primary rounded-full mb-4">
                   <Mail className="w-8 h-8" />
@@ -170,10 +170,20 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-secondary text-secondary-foreground py-8">
+      <footer className="bg-secondary text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="mb-2">© 2025 Lëvizja "Lidhja e Re e Prizrenit"</p>
-          <p className="text-sm text-muted-foreground">PËR ZOT E ATDHE</p>
+          <p className="text-sm opacity-90">
+            Powered by{" "}
+            <a
+              href="https://albscaling.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              Albscaling
+            </a>
+          </p>
         </div>
       </footer>
     </div>
