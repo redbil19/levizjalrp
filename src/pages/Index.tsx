@@ -34,14 +34,17 @@ const Index = () => {
             <div>
               <h2 className="text-4xl font-bold text-foreground mb-6">Frymëzimi</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Frymëzimi nga rilindasit tanë, vuajtja nga robërimi shekullor, dashuria ndaj atdheut, dëshira për të shijuar lirinë dhe për ta parë të bashkuar trungun shqiptar, na detyron të veprojmë rreth një iniciative që kërkon një organizim gjithëpërfshirës.
+                Frymëzimi nga rilindasit tanë, vuajtja nga robërimi shekullor, dashuria ndaj atdheut, dëshira për të shijuar lirinë dhe për ta parë të bashkuar trungun shqiptar, na detyron të veprojmë rreth një iniciative që kërkon një organizim gjithëpërfshirës. 
+              </p>
+              <p className="text-foreground leading-relaxed mb-4">
+                Tranzicioni na gjeti të ndarë dhe sistemi demokratik është hapja e dyerve drejt bashkimit të vlerave kapitale dhe intelektuale, të integrimit brenda shoqërisë dhe në familjen e madhe euro-atlantike. 
               </p>
               <p className="text-foreground leading-relaxed">
-                Tranzicioni na gjeti të ndarë dhe sistemi demokratik është hapja e dyerve drejt bashkimit të vlerave kapitale dhe intelektuale, të integrimit brenda shoqërisë dhe në familjen e madhe euro-atlantike.
+                Në bazë të së drejtës sublime, në frymën e shprehjes së vullnetit të lirë dhe betimit: <strong>PËR ZOT E ATDHE</strong>, vetë koha dhe gjendja e sotme e kërkojnë organizimin e Lëvizjes Lidhja e Re e Prizrenit.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl">
-              <img src={historical1Img} alt="Lidhja Historike" className="w-full h-auto" />
+              <img src={historical1Img} alt="Frymëzimi" className="w-full h-auto" />
             </div>
           </div>
         </div>
@@ -52,26 +55,20 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 rounded-lg overflow-hidden shadow-2xl">
-              <img src={buildingImg} alt="Shtëpia e Lidhjes" className="w-full h-auto" />
+              <img src={buildingImg} alt="Organizimi" className="w-full h-auto" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-4xl font-bold text-foreground mb-6">Organizimi</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Organizimi i një subjekti të tillë brenda shoqërisë shqiptare motivon dhe kultivon nevojën e krijimit të një bërthame të shëndoshë atdhetare, e bazuar në frymën e Lidhjes Shqiptare të Prizrenit, duke miratuar Platformën Kombëtare.
+                Organizimi i një subjekti të tillë brenda shoqërisë shqiptare motivon dhe kultivon nevojën e krijimit të një bërthame të shëndoshë atdhetare, e bazuar në frymën e Lidhjes Shqiptare të Prizrenit, duke miratuar Platformën Kombëtare, që do të jetë qendra koordinative për të vënë në shërbim tërë potencialin intelektual, ekonomik, kulturor dhe diplomatik të kombit mbarë.
               </p>
-              <ul className="space-y-3 text-foreground">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary font-bold">•</span>
-                  <span>Parimet demokratike të shkruara në kartën e OKB-së</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary font-bold">•</span>
-                  <span>Parimin e vetëvendosjes së kombeve</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary font-bold">•</span>
-                  <span>Parimin historik, gjeografik dhe etnik për rastin e përcaktimit të padrejtë të tokave, pronave, kufijve</span>
-                </li>
+              <p className="text-foreground leading-relaxed mb-4">
+                Duke përdorur të gjitha energjitë krijuese, njohëse, filozofike e politike, për të mbrojtur në radhë të parë të vërtetën dhe natyrshëm:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-foreground">
+                <li>Parimet demokratike të shkruara në kartën e OKB-së;</li>
+                <li>Parimin e vetëvendosjes së kombeve;</li>
+                <li>Parimin historik, gjeografik dhe etnik për rastin e përcaktimit të padrejtë të tokave, pronave, kufijve, pasurive natyrore dhe të trashëgimisë kulturore dhe shpirtërore të shqiptarëve në Ballkan.</li>
               </ul>
             </div>
           </div>
@@ -97,14 +94,17 @@ const Index = () => {
             <div>
               <h2 className="text-4xl font-bold text-white mb-6">Vazhdimi i rrugës</h2>
               <p className="text-white/90 leading-relaxed mb-4">
-                Sot, pas Kuvendit të Skënderbeut, Lidhjes së Abdyl Frashërit, Pavarësisë së Ismail Qemalit, Ushtrisë Çlirimtare të Kosovës dhe komandantit Adem Jashari, kemi nevojë për organizimin e lëvizjes patriotike.
+                Sot, pas Kuvendit të Skënderbeut, Lidhjes së Abdyl Frashërit, Pavarësisë së Ismail Qemalit, Ushtrisë Çlirimtare të Kosovës dhe komandantit Adem Jashari, kemi nevojë për organizimin e lëvizjes patriotike, për mobilizimin e intelektualëve patriotë e atdhetarë, për vazhdimin e rrugës së nisur për ribashkim, rikthimin e sistemit të vlerave dhe sundimin e ligjit dhe të demokracisë së mirëfilltë.
+              </p>
+              <p className="text-white/90 leading-relaxed mb-4">
+                Është e qartë që edhe pas 100 vjetëve na mungojnë mekanizmat e duhur për të gjetur dhe shmangur burimin e krizës, për të vënë në funksion të gjitha kapacitetet e forcave progresive që kemi brenda shoqërisë sonë dhe për të vënë në letër e në zemër strategjinë e veprimit të mëtejshëm drejt aspiratave tona kombëtare.
               </p>
               <p className="text-white/90 leading-relaxed">
-                Është e qartë që edhe pas 100 vjetëve na mungojnë mekanizmat e duhur për të gjetur dhe shmangur burimin e krizës, për të vënë në funksion të gjitha kapacitetet e forcave progresive që kemi brenda shoqërisë sonë.
+                Një organizim i tillë është obligim i çdo shqiptari, si vazhdimësi e veprimtarisë atdhetare të rilindasve tanë dhe arsyetim i gjakut të derdhur të dëshmorëve të rënë.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl">
-              <img src={flagBuildingImg} alt="Flamuri dhe Lidhja" className="w-full h-auto" />
+              <img src={flagBuildingImg} alt="Vazhdimi i rrugës" className="w-full h-auto" />
             </div>
           </div>
         </div>
@@ -121,6 +121,12 @@ const Index = () => {
               </p>
               <p>
                 Fëmijët e ish-pushtetarëve të regjimit komunist janë bashkuar nën ombrellën e narkomafias ndërkombëtare, duke u ndihmuar edhe nga disa organizata fetare, për të shkatërruar edhe ato pak toka të mbetura shqiptare.
+              </p>
+              <p>
+                Shtresa e intelektualëve dhe patriotëve shqiptarë nuk ka pasur hapësirën për të vepruar dhe për të ngritur institucione të shëndosha. Fryma e re e lëvizjes atdhetare dhe e intelektualëve patriotë ka vendosur të ngjallë frymën e rilindasve shqiptarë, drejt triumfit mbi mbetjet e vasalëve të pansllavizmit dhe njëmendësisë diktatoriale pro-ruse.
+              </p>
+              <p>
+                E gjithë kjo bëhet duke i ftuar të gjithë ata shqiptarë që janë pa njolla e hipoteka, t’i bashkëngjiten këtij planprogrami panshqiptar. T’i rrekemi punës dhe të përballemi me sfidat që na presin në të ardhmen.
               </p>
               <p className="font-semibold text-primary">
                 Është koha e bashkimit dhe ngritjes së institucioneve të përbashkëta. Ngritja e vetëdijes kombëtare dhe funksionimi i ndërgjegjes njerëzore do të jenë gurthemeli mbi të cilin do të bazohet programi i Lëvizjes.
